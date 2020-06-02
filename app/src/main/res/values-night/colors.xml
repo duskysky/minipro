@@ -2,15 +2,13 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#9bdbff</color>
     <color name="Transparent">#00000000</color>
 
-    <color name="mainText">#2D313D</color>
+    <color name="mainText">#ffffff</color>
     <color name="textAlt">#808F97</color>
     <color name="textButton">#2D313D</color>
 
-    <color name="mainBackground">#ffffff</color>
-    <color name="mainButton">#dfdfdf</color>
-
-
+    <color name="mainBackground">#2D313D</color>
+    <color name="mainButton">#9bdbff</color>
 </resources>

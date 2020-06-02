@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:textColor="@color/mainText"
     tools:context=".registers">
 
     <TextView
@@ -13,6 +15,7 @@
         android:text="@string/Register"
         android:textSize="50sp"
         android:textStyle="bold"
+        android:textColor="@color/mainText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.21"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,6 +30,7 @@
         android:orientation="vertical"
         android:paddingLeft="0dp"
         android:paddingTop="0dp"
+        android:textColor="@color/mainText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.19"
@@ -41,6 +45,7 @@
             android:onClick="loginnn"
             android:text="@string/Login"
             android:textSize="15sp"
+            android:textColor="@color/mainText"
             android:textStyle="italic" />
 
     </LinearLayout>
@@ -61,7 +66,8 @@
             android:id="@+id/btnRegisdiRegis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="reg"
+            android:textColor="@color/textButton"
+            android:background="@drawable/radius"
             android:text="Register" />
     </LinearLayout>
 
@@ -89,12 +95,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/name"
                 android:textSize="25sp"
+                android:textColor="@color/mainText"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/input_nama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/mainText"
                 android:ems="10"
 
                 android:inputType="textPersonName" />
@@ -111,6 +119,7 @@
                     android:paddingTop="20dp"
                     android:text="@string/Email"
                     android:textSize="25sp"
+                    android:textColor="@color/mainText"
                     android:textStyle="bold" />
 
                 <EditText
@@ -118,6 +127,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
+                    android:textColor="@color/mainText"
                     android:ems="10"
 
                     android:inputType="textEmailAddress" />
@@ -136,6 +146,7 @@
                     android:paddingTop="20dp"
                     android:text="@string/Password"
                     android:textSize="25sp"
+                    android:textColor="@color/mainText"
                     android:textStyle="bold" />
 
                 <EditText
@@ -143,7 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
-
+                    android:textColor="@color/mainText"
                     android:inputType="textPassword" />
             </LinearLayout>
 
@@ -159,6 +170,7 @@
                     android:paddingTop="20dp"
                     android:text="@string/confirm_password"
                     android:textSize="25sp"
+                    android:textColor="@color/mainText"
                     android:textStyle="bold" />
 
                 <EditText
@@ -166,6 +178,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:textColor="@color/mainText"
                     android:inputType="textPassword" />
 
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainBackground"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,6 +14,7 @@
         android:text="@string/Login"
         android:textSize="50sp"
         android:textStyle="bold"
+        android:textColor="@color/mainText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -49,6 +51,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Email"
                     android:textSize="25sp"
+                    android:textColor="@color/mainText"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -64,6 +67,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
                     android:ems="10"
+                    android:textColor="@color/mainText"
                     android:inputType="textEmailAddress" />
             </LinearLayout>
 
@@ -79,6 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/Password"
+                    android:textColor="@color/mainText"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -94,6 +99,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/mainText"
                     android:inputType="textPassword" />
             </LinearLayout>
 
@@ -114,8 +120,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginBottom="16dp"
+            android:orientation="vertical"
             android:paddingLeft="55dp">
 
             <Button
@@ -124,6 +130,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/Transparent"
                 android:text="Register Here! "
+                android:textColor="@color/mainText"
                 android:textAllCaps="false"
                 android:textSize="20dp"
                 android:textStyle="italic" />
@@ -132,16 +139,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingLeft="55dp"
             android:layout_marginBottom="20dp"
-            >
+            android:orientation="vertical"
+            android:paddingLeft="55dp">
 
             <TextView
                 android:id="@+id/darkmodetex"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dark Mode"
+                android:textColor="@color/mainText"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -149,14 +156,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="55dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="55dp">
 
             <TextView
                 android:id="@+id/languagetex"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Language"
+                android:textColor="@color/mainText"
                 android:textSize="25sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -174,15 +182,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="20dp"
             android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
             android:paddingLeft="60dp">
 
             <Button
                 android:id="@+id/btnLoginDiLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/textButton"
+                android:background="@drawable/radius"
                 android:text="@string/Login" />
 
         </LinearLayout>
@@ -194,7 +204,7 @@
             android:paddingRight="55dp">
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/darkmodeswitch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -202,14 +212,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginTop="24dp"
+            android:orientation="vertical"
             android:paddingRight="55dp">
 
             <Spinner
                 android:id="@+id/spinnerLanguage"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:textColor="@color/mainText"
                 android:paddingRight="55dp" />
         </LinearLayout>
 

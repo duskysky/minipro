@@ -89,8 +89,4 @@ public class registers extends AppCompatActivity {
         startActivityForResult(intentLo, 1);
     }
 
-    public void reg (View view){
-        Intent intentHo = new Intent(registers.this, home.class);
-        startActivityForResult(intentHo, 1);
-    }
 }
