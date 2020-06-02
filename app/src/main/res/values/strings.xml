@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">minipro</string>
+    <string name="Login">Login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
