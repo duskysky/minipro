@@ -90,7 +90,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/input_pass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -119,11 +119,10 @@
             android:paddingLeft="55dp">
 
             <Button
-                android:id="@+id/btnRegis"
+                android:id="@+id/btnRegisDiLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/Transparent"
-                android:onClick="registerr"
                 android:text="Register Here! "
                 android:textAllCaps="false"
                 android:textSize="20dp"
@@ -181,10 +180,9 @@
             android:paddingLeft="60dp">
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnLoginDiLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="loginn"
                 android:text="@string/Login" />
 
         </LinearLayout>
