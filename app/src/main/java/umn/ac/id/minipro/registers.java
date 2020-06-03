@@ -9,19 +9,19 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+
 public class registers extends AppCompatActivity {
 
     EditText mFullName, mEmail, mPassword, mConfirmPassword;
     FirebaseAuth fAuth;
     Button mRegister;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,8 +58,8 @@ public class registers extends AppCompatActivity {
                 return;
             }
 
-            if (password.length() < 4){
-                mPassword.setError("Password must be more than 4 character");
+            if (password.length() < 6){
+                mPassword.setError("Password must be more than 6 character");
             }
 
             if(!password.equals(confpass)){
@@ -72,6 +72,8 @@ public class registers extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         startActivity(new Intent(getApplicationContext(),home.class));
+                    }else{
+                        Toast.makeText(registers.this, "Error" +task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
@@ -80,8 +82,6 @@ public class registers extends AppCompatActivity {
     });
 
     }
-
-
 
 
     public void loginnn (View view){

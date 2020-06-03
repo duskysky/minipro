@@ -13,6 +13,13 @@
     <string name="title_home">Beranda</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifikasi</string>
+    <string name="add">Tambah</string>
+    <string name="subject">Subjek</string>
+    <string name="salary">Gaji</string>
+    <string name="phone_number">Nomor Telefon</string>
+    <string name="position">Posisi</string>
+    <string name="class_es">Kelas</string>
+    <string name="cancel">Batal</string>
 
     <string-array name="langEng">
         <item>Bahasa Inggris</item>

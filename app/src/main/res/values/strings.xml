@@ -14,6 +14,13 @@
     <string name="register_here">Register Here! </string>
     <string name="language">Language</string>
     <string name="dark_mode">Dark Mode</string>
+    <string name="add">Add</string>
+    <string name="subject">Subject</string>
+    <string name="salary">Salary</string>]
+    <string name="phone_number">Phone Number</string>
+    <string name="position">Position</string>
+    <string name="class_es">Class(es)</string>
+    <string name="cancel">Cancel</string>
 
     <string-array name="langEng">
         <item>Engslih</item>

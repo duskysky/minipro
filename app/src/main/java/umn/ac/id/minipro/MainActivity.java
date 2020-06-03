@@ -67,10 +67,10 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
                 if (i ==0){
                     setLocale("en-rUS");
-                    return;
+
                 } else if (i == 1){
                     setLocale("in");
-                    return;
+
                 }
 
                 //switch(i){
@@ -106,8 +106,7 @@ public class MainActivity extends AppCompatActivity {
         mRegis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentR = new Intent(MainActivity.this, registers.class);
-                startActivityForResult(intentR, 1);
+                startActivity(new Intent(getApplicationContext(),registers.class));
             }
         });
 
