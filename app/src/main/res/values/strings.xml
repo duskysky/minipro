@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">minipro</string>
     <string name="Login">Login</string>
@@ -10,4 +11,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="register_here">Register Here! </string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string-array name="langEng">
+        <item>Engslih</item>
+        <item>Indonesia</item>
+    </string-array>
 </resources>

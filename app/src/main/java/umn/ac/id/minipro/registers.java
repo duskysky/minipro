@@ -27,7 +27,7 @@ public class registers extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registers);
-
+        //loadLocale();
         mFullName = findViewById(R.id.input_nama);
         mEmail = findViewById(R.id.input_email);
         mPassword = findViewById(R.id.input_pass);
