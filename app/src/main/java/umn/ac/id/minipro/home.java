@@ -20,21 +20,33 @@ import java.util.Map;
 
 public class home extends AppCompatActivity {
 
-    Button btnAd;
+    Button btnAd,btnout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         btnAd = findViewById(R.id.button2);
+        btnout = findViewById(R.id.button3);
 
 
-
+        btnout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                finish();
+            }
+        });
         btnAd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),add.class));
             }
         });
+
+
+
+
 
 //
 
