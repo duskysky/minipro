@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">minipro</string>
     <string name="confirm_password">Konfirmasi Password</string>
     <string name="dark_mode">Mode Gelap</string>
     <string name="Email">Email</string>
@@ -20,6 +21,9 @@
     <string name="position">Posisi</string>
     <string name="class_es">Kelas</string>
     <string name="cancel">Batal</string>
+    <string name="about">Tentang</string>
+    <string name="logout">Keluar</string>
+
 
     <string-array name="langEng">
         <item>Bahasa Inggris</item>

@@ -20,14 +20,21 @@ import java.util.Map;
 
 public class home extends AppCompatActivity {
 
-    Button btnAd,btnout;
+    Button btnAd,btnout,btnbout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         btnAd = findViewById(R.id.button2);
         btnout = findViewById(R.id.button3);
+        btnbout = findViewById(R.id.button);
 
+        btnbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),about.class));
+            }
+        });
 
         btnout.setOnClickListener(new View.OnClickListener() {
             @Override

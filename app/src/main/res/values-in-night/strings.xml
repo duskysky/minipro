@@ -20,6 +20,12 @@
     <string name="position">Posisi</string>
     <string name="class_es">Kelas</string>
     <string name="cancel">Batal</string>
+    <string name="about">Tentang</string>
+    <string name="logout">Keluar</string>
+
+    <string name="penjelasan">Aplikasi yang dibuat adalah aplikasi tentang data karyawan di perusahaan aplikasi bisa login dan logut, bisa memakai dark mode dan mengubah bahasa lalu dapat menambah form untuk menambahkan data karyawan proses sangat susah karena waktu yang sempit dan juga fitur yang susah, saya kerjakan sendiri karena tidak ingin menggangu org ups and down = setelah login dan register dan dark mode bersih dia ngehank pas di language, language juga tidak bisa berubah karena masih belum mengerti betul pake spinnerujiannya terlalu susah untuk waktu 2 hari.saran, mungkin bisa kalau waktunya 3-4 hari</string>
+    <string name="bek">bek</string>
+
 
     <string-array name="langEng">
         <item>Bahasa Inggris</item>

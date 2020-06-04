@@ -21,6 +21,8 @@
     <string name="position">Position</string>
     <string name="class_es">Class(es)</string>
     <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
 
     <string-array name="langEng">
         <item>Engslih</item>
